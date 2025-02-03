@@ -1,0 +1,50 @@
+[24-Jan-2025 20:25:37 America/Fortaleza] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home2/kokkos97/tower.kokkos.com.br/App/modals/get_tipo_seed.php on line 2
+[24-Jan-2025 20:25:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/kokkos97/tower.kokkos.com.br/App/modals/get_tipo_seed.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/kokkos97/tower.kokkos.com.br/App/modals/get_tipo_seed.php on line 2
+[24-Jan-2025 20:26:06 America/Fortaleza] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 3
+[24-Jan-2025 20:26:06 America/Fortaleza] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 3
+[24-Jan-2025 20:26:06 America/Fortaleza] PHP Warning:  Undefined variable $seed in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 48
+[24-Jan-2025 20:26:06 America/Fortaleza] PHP Warning:  Trying to access array offset on value of type null in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 48
+[24-Jan-2025 20:26:06 America/Fortaleza] PHP Warning:  Undefined variable $pdo in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 54
+[24-Jan-2025 20:26:06 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php:54
+Stack trace:
+#0 {main}
+  thrown in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 54
+[24-Jan-2025 20:26:14 America/Fortaleza] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 3
+[24-Jan-2025 20:26:14 America/Fortaleza] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 3
+[24-Jan-2025 20:26:14 America/Fortaleza] PHP Warning:  Undefined variable $seed in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 48
+[24-Jan-2025 20:26:14 America/Fortaleza] PHP Warning:  Trying to access array offset on value of type null in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 48
+[24-Jan-2025 20:26:14 America/Fortaleza] PHP Warning:  Undefined variable $pdo in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 54
+[24-Jan-2025 20:26:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php:54
+Stack trace:
+#0 {main}
+  thrown in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 54
+[24-Jan-2025 20:26:21 America/Fortaleza] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 3
+[24-Jan-2025 20:26:21 America/Fortaleza] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 3
+[24-Jan-2025 20:26:21 America/Fortaleza] PHP Warning:  Undefined variable $seed in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 48
+[24-Jan-2025 20:26:21 America/Fortaleza] PHP Warning:  Trying to access array offset on value of type null in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 48
+[24-Jan-2025 20:26:21 America/Fortaleza] PHP Warning:  Undefined variable $pdo in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 54
+[24-Jan-2025 20:26:21 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php:54
+Stack trace:
+#0 {main}
+  thrown in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 54
+[24-Jan-2025 20:26:27 America/Fortaleza] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 3
+[24-Jan-2025 20:26:27 America/Fortaleza] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 3
+[24-Jan-2025 20:26:27 America/Fortaleza] PHP Warning:  Undefined variable $pdo in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 30
+[24-Jan-2025 20:26:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 30
+[24-Jan-2025 20:26:39 America/Fortaleza] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 3
+[24-Jan-2025 20:26:39 America/Fortaleza] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 3
+[24-Jan-2025 20:26:39 America/Fortaleza] PHP Warning:  Undefined variable $seed in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 48
+[24-Jan-2025 20:26:39 America/Fortaleza] PHP Warning:  Trying to access array offset on value of type null in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 48
+[24-Jan-2025 20:26:39 America/Fortaleza] PHP Warning:  Undefined variable $pdo in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 54
+[24-Jan-2025 20:26:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php:54
+Stack trace:
+#0 {main}
+  thrown in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 54
+[24-Jan-2025 20:30:07 America/Fortaleza] PHP Parse error:  syntax error, unexpected identifier "aca" in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 93
+[24-Jan-2025 20:30:12 America/Fortaleza] PHP Parse error:  syntax error, unexpected identifier "aca" in /home2/kokkos97/tower.kokkos.com.br/App/modals/edit_seed_modal.php on line 93

@@ -1,0 +1,262 @@
+===Banco de dados kokkos97_RPG
+
+== Estrutura para tabela aliados
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Sim|NULL
+|nome|varchar(255)|Sim|NULL
+|relacao|varchar(255)|Sim|NULL
+== Estrutura para tabela anotacoes
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Sim|NULL
+|conteudo|text|Sim|NULL
+== Estrutura para tabela cartas_de_poder
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|titulo|varchar(255)|Não|
+|gasto_pe|int(11)|Não|
+|tempo|varchar(50)|Sim|NULL
+|descricao|text|Sim|NULL
+|efeitos_basicos|json|Sim|NULL
+|efeitos_adicionais|json|Sim|NULL
+|ficha_id|int(11)|Não|
+== Estrutura para tabela cartas_tematicas
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|carta_id|int(11)|Não|
+|tema_id|int(11)|Não|
+== Estrutura para tabela classe_ameaca
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|classe|int(11)|Sim|NULL
+|poder_inato|varchar(255)|Sim|NULL
+|facilidade_controle|varchar(255)|Sim|NULL
+|risco_instabilidade|varchar(255)|Sim|NULL
+|exemplo|varchar(255)|Sim|NULL
+== Estrutura para tabela combate
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Sim|NULL
+|pericia|varchar(255)|Sim|NULL
+|arma_ou_poder|varchar(255)|Sim|NULL
+|ataque|int(11)|Sim|NULL
+|pts|int(11)|Sim|NULL
+|dano_basico|int(11)|Sim|NULL
+|cargas|int(11)|Sim|NULL
+|ataque_por_turno|int(11)|Sim|NULL
+|distancia|varchar(50)|Sim|NULL
+|detalhes|text|Sim|NULL
+== Estrutura para tabela desvantagens
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Sim|NULL
+|nome|varchar(255)|Sim|NULL
+|descricao|text|Sim|NULL
+== Estrutura para tabela equipamento
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Sim|NULL
+|nome|varchar(255)|Sim|NULL
+|quantidade|int(11)|Sim|NULL
+|peso_por_unidade|decimal(10,2)|Sim|NULL
+== Estrutura para tabela fichas
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|nome|varchar(255)|Não|
+|idade|int(11)|Sim|NULL
+|altura|varchar(50)|Sim|NULL
+|peso|varchar(50)|Sim|NULL
+|cabelos|varchar(100)|Sim|NULL
+|olhos|varchar(100)|Sim|NULL
+|aparencia_personalidade|text|Sim|NULL
+|jogador|varchar(100)|Sim|NULL
+|patente|varchar(100)|Sim|NULL
+|for|int(11)|Sim|NULL
+|des|int(11)|Sim|NULL
+|con|int(11)|Sim|NULL
+|int|int(11)|Sim|NULL
+|sab|int(11)|Sim|NULL
+|car|int(11)|Sim|NULL
+|poder|int(11)|Sim|NULL
+|pvs|varchar(50)|Sim|NULL
+|pes|varchar(50)|Sim|NULL
+|pss|varchar(50)|Sim|NULL
+|pontos_narrativos|int(11)|Sim|NULL
+|pontos_acao|int(11)|Sim|NULL
+|pontos_xp|int(11)|Sim|NULL
+|historia|mediumtext|Sim|NULL
+|usuario_id|int(11)|Sim|NULL
+|created_at|timestamp|Não|CURRENT_TIMESTAMP
+|updated_at|timestamp|Não|CURRENT_TIMESTAMP
+|pvs_atual|int(11)|Sim|0
+|pss_atual|int(11)|Sim|0
+|pes_atual|int(11)|Sim|0
+|tipo|enum(&#039;jogador&#039;, &#039;npc&#039;)|Não|jogador
+|seed|varchar(255)|Sim|NULL
+== Estrutura para tabela habilidades_especiais
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Sim|NULL
+|habilidade|varchar(255)|Sim|NULL
+|nivel|int(11)|Sim|NULL
+|descricao|text|Sim|NULL
+== Estrutura para tabela inimigos
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Sim|NULL
+|nome|varchar(255)|Sim|NULL
+|relacao|varchar(255)|Sim|NULL
+== Estrutura para tabela medos
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Não|
+|medo|varchar(255)|Não|
+== Estrutura para tabela missoes
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Sim|NULL
+|descricao|text|Sim|NULL
+== Estrutura para tabela pericias
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Sim|NULL
+|nome|varchar(255)|Sim|NULL
+|nivel_pericia|int(11)|Sim|NULL
+|bonus|int(11)|Sim|NULL
+|nivel_disponivel|int(11)|Sim|NULL
+|formula|varchar(255)|Sim|NULL
+== Estrutura para tabela planos
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|nome|varchar(255)|Não|
+|atributo1|varchar(10)|Sim|NULL
+|atributo2|varchar(10)|Sim|NULL
+|atributo3|varchar(10)|Sim|NULL
+|exemplo_poder|text|Sim|NULL
+== Estrutura para tabela rotulos_fraqueza
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|tema_id|int(11)|Não|
+|nome|varchar(255)|Não|
+|nivel|int(11)|Sim|NULL
+|efeito|text|Sim|NULL
+== Estrutura para tabela rotulos_poder
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|tema_id|int(11)|Não|
+|nome|varchar(255)|Não|
+|nivel|int(11)|Sim|NULL
+|efeito|text|Sim|NULL
+== Estrutura para tabela seeds
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Não|
+|plano_origem_id|int(11)|Sim|NULL
+|tipo_seed_id|int(11)|Sim|NULL
+|classe_ameaca_id|int(11)|Sim|NULL
+|patrono_item|varchar(255)|Não|
+== Estrutura para tabela sonhos
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Não|
+|sonho|varchar(255)|Não|
+== Estrutura para tabela temas_de_poder
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Não|
+|titulo|varchar(255)|Não|
+|tema|enum(&#039;Adaptabilidade&#039;, &#039;Fortaleza&#039;, &#039;Previsão&#039;, &#039;Expressividade&#039;, &#039;Mobilidade&#039;, &#039;Relíquia&#039;, &#039;Subversão&#039;)|Não|
+|descricao|text|Sim|NULL
+|created_at|timestamp|Não|CURRENT_TIMESTAMP
+|updated_at|timestamp|Não|CURRENT_TIMESTAMP
+== Estrutura para tabela tipos_seed
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|nome|varchar(255)|Não|
+|cartas_de_poder|varchar(255)|Sim|NULL
+|custo_pe|decimal(10,2)|Sim|NULL
+|facilidade_controle|varchar(255)|Sim|NULL
+|poder_inato|varchar(255)|Sim|NULL
+== Estrutura para tabela usuarios
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|**Nome**|varchar(255)|Não|
+|senha|varchar(255)|Não|
+|função|int(11)|Não|
+|created_at|timestamp|Não|CURRENT_TIMESTAMP
+== Estrutura para tabela vantagens
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**id**//|int(11)|Não|
+|ficha_id|int(11)|Sim|NULL
+|nome|varchar(255)|Sim|NULL
+|descricao|text|Sim|NULL
